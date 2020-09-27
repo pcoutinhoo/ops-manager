@@ -2,8 +2,6 @@
 
 const http = require('http');
 const debug = require('debug')('opsmanager:server');
-const express = require('express');
-const bodypaser = require('body-parser');
 const app = require('../src/app');
 
 const port = normalizarPort(process.env.PORT || '3000');
